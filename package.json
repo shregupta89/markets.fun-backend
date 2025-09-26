@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +19,15 @@
   "bugs": {
     "url": "https://github.com/shregupta89/markets.fun-backend/issues"
   },
-  "homepage": "https://github.com/shregupta89/markets.fun-backend#readme"
+  "homepage": "https://github.com/shregupta89/markets.fun-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
